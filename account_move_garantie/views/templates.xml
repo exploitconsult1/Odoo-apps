@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+
+<template id="report_invoice_document_inherit" inherit_id="account.report_invoice_document">
+
+
+    <xpath expr="//p[@name='payment_communication']" position="after">
+        <br/>
+
+        <p  t-field="o.company_id.description"/>
+
+
+
+            </xpath>
+
+
+
+
+</template>
+    </data>
+</odoo>
