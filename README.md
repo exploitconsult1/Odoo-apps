@@ -1,1 +1,1 @@
-# Odoo apps
+# account_move_garantie
